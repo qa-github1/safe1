@@ -4,8 +4,8 @@ on:
   # runs tests every day at 4am
   schedule:
     # - cron: '*/15 * * * *' # runs every 15th minute
-    - cron: '0 4 * * *'
-  #[ push ]
+  # - cron: '0 4 * * *'
+   [ push ]
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
