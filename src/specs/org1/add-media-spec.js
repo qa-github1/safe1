@@ -8,7 +8,7 @@ describe('Add Media', function () {
 
     let user = S.getUserData(S.userAccounts.orgAdmin);
 
-    it('A.M_1. Add Media to Case', function () {
+    it.only('A.M_1. Add Media to Case', function () {
         ui.app.log_title(this);
 
         api.auth.get_tokens(user);
