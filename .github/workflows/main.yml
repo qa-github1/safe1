@@ -6,6 +6,9 @@ on:
     # - cron: '*/15 * * * *' # runs every 15th minute
   # - cron: '0 4 * * *'
    [ push ]
+
+permissions: read-all|write-all
+
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
