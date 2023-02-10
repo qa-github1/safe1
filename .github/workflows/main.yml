@@ -7,7 +7,7 @@ on:
   # - cron: '0 4 * * *'
    [ push ]
 
-permissions: read-all|write-all
+permissions: write-all
 
 jobs:
   cypress-run:
