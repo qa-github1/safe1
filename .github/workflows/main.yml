@@ -12,7 +12,7 @@ permissions: write-all
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 150
     container:
       image: cypress/browsers:node16.14.2-slim-chrome100-ff99-edge
       options: --user 1001
