@@ -49,7 +49,7 @@ jobs:
           allure_results: report/allure-results
           #gh_pages: gh-pages
           #allure_report: allure-report
-          allure_history: report/allure-history
+          allure_history: allure-history
           keep_reports: 2
 
       - name: Deploy report to Github Pages
