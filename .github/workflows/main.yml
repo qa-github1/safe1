@@ -31,7 +31,7 @@ jobs:
         run: npm i
 
       - name: Run tests
-        run: npm run tests-org4
+        run: npm run tests-org1
 
       - name: Get Allure history
         uses: actions/checkout@v2
