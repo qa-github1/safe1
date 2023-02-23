@@ -76,7 +76,8 @@ export default class UserAdminPage extends BasePage {
 
     enter_all_values(userObject) {
         this.modal__().within(($list) => {
-            titleRankDropdown().select(userObject.titleRank);
+
+            if (userObject.titleRank) titleRankDropdown().select(userObject.titleRank);
 
             this.type_if_values_provided([
                     [firstNameInput, userObject.firstName],
