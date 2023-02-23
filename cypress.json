@@ -16,6 +16,7 @@
   "pageLoadTimeout": 90000,
   "watchForFileChanges": false,
   "video": true,
+  "baseUrl": "https://qa.trackerproducts.com",
   "env" : {
     "allureResultsPath": "report/allure-results",
     "allure": true,
