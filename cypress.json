@@ -15,7 +15,7 @@
   "chromeWebSecurity": true,
   "pageLoadTimeout": 90000,
   "watchForFileChanges": false,
-  "video": true,
+  "video": false,
   "env" : {
     "allureResultsPath": "report/allure-results",
     "allure": true,
